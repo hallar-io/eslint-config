@@ -7,12 +7,6 @@
 
 ---
 
-<!-- prettier-ignore-start -->
-[![Build Status][build-badge]][build]
-[![version][version-badge]][package]
-[![MIT License][license-badge]][license]
-<!-- prettier-ignore-end -->
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
