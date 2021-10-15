@@ -1,5 +1,5 @@
 <div align="center">
-<h1>eslint-config-daren</h1>
+<h1>eslint-config</h1>
 
 <p>These are my settings for ESLint and Prettier</p>
 <p>You might like them - or you might not. Don't worry you can always change them.</p>
@@ -32,7 +32,7 @@
 This module should be installed as one of your project's `devDependencies`:
 
 ```
-npx install-peerdeps --dev eslint-config-daren
+npx install-peerdeps --dev eslint-config
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Then add the extends to your .eslintrc.js:
 
 ```js
 module.exports = {
-  extends: "daren",
+  extends: "hallar",
   rules: {
     // your overrides
   },
@@ -54,7 +54,7 @@ You can use other configs in combination with the main eslint.
 
 ```js
 module.exports = {
-  extends: ['daren', 'daren/<config-name>'],
+  extends: ['hallar', 'hallar/<config-name>'],
 }
 ```
 
@@ -63,9 +63,9 @@ module.exports = {
 ```js
 module.exports = {
   extends: [
-    'daren',
-    'daren/react',
-    'daren/jsx-a11y',
+    'hallar',
+    'hallar/react',
+    'hallar/jsx-a11y',
   ],
   rules: {
     // your overrides
@@ -101,15 +101,3 @@ Using the eslint-plugin you can use these settings for autoformatting:
   "source.fixAll": true,
 }
 ```
-
-<!-- prettier-ignore-start -->
-[npm]: https://www.npmjs.com
-[node]: https://nodejs.org
-[build-badge]: https://img.shields.io/github/workflow/status/darenmalfait/eslint-config-daren/CI?logo=github&style=flat-square
-[build]: https://github.com/darenmalfait/eslint-config-daren/actions?query=workflow
-[version-badge]: https://img.shields.io/npm/v/eslint-config-daren.svg?style=flat-square
-[package]: https://www.npmjs.com/package/eslint-config-daren
-[downloads-badge]: https://img.shields.io/npm/dm/eslint-config-daren.svg?style=flat-square
-[license-badge]: https://img.shields.io/npm/l/eslint-config-daren.svg?style=flat-square
-[license]: https://github.com/darenmalfait/eslint-config-daren/blob/main/LICENSE
-<!-- prettier-ignore-end -->

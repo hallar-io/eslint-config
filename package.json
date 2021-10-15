@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-daren",
+  "name": "@hallarhq/eslint-config",
   "version": "0.0.0-semantically-released",
-  "description": "eslint=config-daren",
+  "description": "eslint=config-hallar",
   "main": "index.js",
   "keywords": [
     "javascript",
@@ -11,7 +11,6 @@
     "config",
     "prettier"
   ],
-  "author": "Daren Malfait <me@daren.be> (https://daren.be)",
   "license": "MIT",
   "engines": {
     "node": ">=10",
@@ -19,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/darenmalfait/eslint-config-daren"
+    "url": "https://github.com/hallar-io/eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/darenmalfait/eslint-config-daren/issues"
+    "url": "https://github.com/hallar-io/eslint-config/issues"
   },
-  "homepage": "https://github.com/darenmalfait/eslint-config-daren#readme",
+  "homepage": "https://github.com/hallar-io/eslint-config#readme",
   "scripts": {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx . --fix",
