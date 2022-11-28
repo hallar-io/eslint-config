@@ -102,6 +102,7 @@ module.exports = {
       rules: {
         'babel/no-invalid-this': `off`,
         '@typescript-eslint/no-invalid-this': `error`,
+        '@typescript-eslint/no-any': `error`,
         'no-var': `error`,
         'prefer-const': `error`,
         'prefer-rest-params': `error`,
